@@ -7,5 +7,5 @@ description 'Module for delpoying VCS repos agnostically'
 project_page 'http://github.com/george-b/vcs_deploy'
 
 # Dependencies
-dependency 'puppetlabs/vcsrepo'
-dependency 'puppetlabs/stdlib'
+dependency 'puppetlabs/vcsrepo', '1.0.1'
+dependency 'puppetlabs/stdlib', '>=3.0.0'
